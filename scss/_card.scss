@@ -1,0 +1,23 @@
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px 0 rgba($color: #000000, $alpha: 0.2);
+  position: relative;
+
+  .card__new {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .card__img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+  }
+
+  .card__body {
+    padding: 5px;
+  }
+}

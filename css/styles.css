@@ -1,0 +1,119 @@
+.btn {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 0;
+}
+.btn--primary {
+  background: #9356DC;
+  background: linear-gradient(160deg, #9356DC 0%, #FF79DA 100%);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.card .card__new {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.card .card__img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+}
+.card .card__body {
+  padding: 5px;
+}
+
+.heart {
+  position: relative;
+  padding: 0;
+  height: 17px;
+  width: 17px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.heart .heart__like {
+  opacity: 0;
+}
+.heart .heart__like, .heart .heart__unlike {
+  transition: opacity 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.heart:hover .heart__like {
+  opacity: 1;
+}
+.heart:hover .heart__unlike {
+  opacity: 0;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice-list-group {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+
+.choice-list-group__item {
+  padding: 20px 20px 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 1px 5px 20px;
+}
+
+.choice-list-group__number {
+  background-color: blue;
+  display: flex;
+  height: 25px;
+  width: 25px;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  border-radius: 50px;
+  margin-left: -12px;
+}
+
+.background-grey {
+  background-color: gray;
+}
+
+.bg-top-shadow {
+  background: rgb(185, 185, 185);
+  background: linear-gradient(180deg, rgb(185, 185, 185) 0%, rgb(209, 209, 209) 2%, rgb(209, 209, 209) 100%);
+}
+
+.nav-logo {
+  width: 200px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

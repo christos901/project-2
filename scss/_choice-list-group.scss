@@ -1,0 +1,25 @@
+.choice-list-group{
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.choice-list-group__item{
+    padding: 20px 20px 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 1px 5px 20px;
+}
+.choice-list-group__number{
+    background-color: blue;
+    display: flex;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: -12px;
+}
